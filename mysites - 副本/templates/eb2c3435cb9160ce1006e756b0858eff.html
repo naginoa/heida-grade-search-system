@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/eb2c3435cb9160ce1006e756b0858eff/" method="POST">
+    <input type="text" name="aaa"/>
+    <input type="submit" value="提交"/>
+</form>
+<table border="1" style="float: left">
+    <thead>
+        <th>用户名</th>
+        <th>密码</th>
+    </thead>
+    <tbody>
+        {% for line in data %}
+            <tr>
+                <td>{{ line.user }}</td>
+                <td>{{ line.pwd }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<table border="1" style="float: right">
+    <thead>
+        <th>用户名</th>
+        <th>登录日期</th>
+    </thead>
+    <tbody>
+        {% for line in data2 %}
+            <tr>
+                <td>{{ line.user }}</td>
+                <td>{{ line.tim }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

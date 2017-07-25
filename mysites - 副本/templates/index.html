@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <div id="container">
+        <table id="ctable">
+            {% for a in g %}
+            <tr>
+                <td class="td1">
+                    {{ a.semester }}
+                </td>
+                <td class="td1">
+                    {{ a.course }}
+                </td >
+                <td class="td1">
+                    {{ a.credit }}
+                </td>
+                <td class="td1">
+                    {{ a.grade }}
+                </td>
+            </tr>
+            {% endfor %}
+            {% for r in re %}
+            <tr>
+                <td class="td2" colspan="2">
+                    {{ r.seme }}
+                </td>
+                <td class="td2" colspan="2">
+                    {{ r.grade }}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>
