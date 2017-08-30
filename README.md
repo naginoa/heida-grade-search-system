@@ -15,3 +15,9 @@
 ![Image text](https://github.com/naginoasukara/heida-grade-search-system/blob/master/%E9%BB%91%E5%A4%A7%E7%BB%A9%E7%82%B9%E7%B3%BB%E7%BB%9F%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%E5%9B%BE.jpg)
 
 ![Image text](https://github.com/naginoasukara/heida-grade-search-system/blob/master/%E7%99%BB%E5%BD%95%E7%BB%93%E6%9E%9C%E7%95%8C%E9%9D%A2%20%E5%8F%AF%E4%BB%A5%E5%BE%97%E7%9F%A5%E8%87%AA%E5%B7%B1%E6%89%80%E6%9C%89%E6%88%90%E7%BB%A9%E5%92%8C%E7%BB%A9%E7%82%B9.png)
+
+缺陷
+------
+#1 
+没有解决并发问题
+例如A和B同时登陆系统，那么A和B产生的结果是都是A的
