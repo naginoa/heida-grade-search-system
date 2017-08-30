@@ -12,4 +12,4 @@
 
 界面展示
 ------
-![Image text](https://raw.github.com/naginoasukara/repositpry/master/heida-grade-search-system/黑大绩点系统登录界面图.jpg)
+![Image text](https://github.com/naginoasukara/heida-grade-search-system/blob/master/%E9%BB%91%E5%A4%A7%E7%BB%A9%E7%82%B9%E7%B3%BB%E7%BB%9F%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%E5%9B%BE.jpg)
